@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* 
+   Author: Charlene Yeo
+   Date: 22/01/2024
+
+   Stylesheet for login page
+
+   Filename: login.css 
+*/
+
+
+body {
+    background-color: #e0f7d5;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto; 
+    padding: 20px;
+    border: 1px solid #a1887f; 
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #4caf50; 
+    margin-bottom: 20px; 
+}
+
+form {
+    margin-top: 20px;
+}
+
+/* Nav bar */
+.navbar-brand {
+    color: #4caf50;
+}
+
+.navbar-nav .nav-link {
+    color: #4caf50; 
+}

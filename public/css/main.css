@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* 
+   Author: Charlene Yeo
+   Date: 22/01/2024
+
+   Stylesheet for cart, message, player, profile, task page
+
+   Filename: main.css 
+*/
+
+body {
+  background-color: #b0e57c; 
+  color: #004d40;
+}
+
+
+.card {
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.card-title {
+  color: #3d9970; 
+}
+
+.table {
+  background-color: #ffffff; 
+}
+
+.table th {
+  background-color: #3d9970; 
+  color: #ffffff; 
+}
+
+
+.table td,
+.table th {
+  border: 1px solid #dddddd; 
+}
+
+
+.btn-primary,
+.btn-outline-danger {
+  background-color: #3d9970; 
+  border-color: #3d9970; 
+  color: #fff; 
+}
+
+.modal-content {
+  background-color: #f8f8f8; 
+}
+
+.modal-title {
+  color: #3d9970; 
+}
+
+.btn-close {
+  color: #3d9970;
+}
+
+.modal-footer {
+  background-color: #f8f8f8; 
+}
+
+#chat-container {
+  max-height: 350px;
+  overflow-y: auto; 
+}
+
+
+.navbar-nav {
+  margin-left: auto;
+}
